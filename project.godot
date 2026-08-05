@@ -1,0 +1,49 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Dot maze"
+run/main_scene="uid://d1wa6gvx1q1ys"
+config/features=PackedStringArray("4.6", "Mobile")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=480
+window/size/viewport_height=480
+window/size/mode=3
+window/size/initial_position_type=5
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[input_devices]
+
+virtual_controller/ios/enable_controller=true
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="mobile"
+
+[xogot]
+
+project/editorState=[{
+"column": 0,
+"current": true,
+"line": 6,
+"path": "res://player.gd",
+"type": "file"
+}]
+project/shaderEditorState=[]
+project/breakpoints={
+"res://player.gd": PackedInt32Array(6)
+}
+project/disabled_breakpoints={}

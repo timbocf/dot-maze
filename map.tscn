@@ -1,0 +1,160 @@
+[gd_scene format=3 uid="uid://coqyg14xf1q1c"]
+
+[ext_resource type="PackedScene" uid="uid://gvckl57ulumb" path="res://brick.tscn" id="1_c7s6e"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_c7s6e"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_wijl4"]
+normal = Vector2(-4.3711392e-08, -1)
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_e0an3"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_p5pve"]
+
+[node name="Map" type="Node2D" unique_id=1069958168]
+
+[node name="Background" type="ColorRect" parent="." unique_id=507691199]
+custom_minimum_size = Vector2(480, 480)
+offset_right = 120.0
+offset_bottom = 120.0
+color = Color(0.678421, 0.678421, 0.678421, 1)
+
+[node name="Walls" type="Node2D" parent="." unique_id=404452360]
+
+[node name="Brick" parent="Walls" unique_id=1621759516 instance=ExtResource("1_c7s6e")]
+position = Vector2(0, 40)
+
+[node name="Brick2" parent="Walls" unique_id=460114664 instance=ExtResource("1_c7s6e")]
+visible = false
+position = Vector2(40, 0)
+
+[node name="Brick5" parent="Walls" unique_id=1588128965 instance=ExtResource("1_c7s6e")]
+position = Vector2(40, 40)
+
+[node name="Brick6" parent="Walls" unique_id=1414930514 instance=ExtResource("1_c7s6e")]
+position = Vector2(40, 80)
+
+[node name="Brick7" parent="Walls" unique_id=1303547242 instance=ExtResource("1_c7s6e")]
+position = Vector2(40, 120)
+
+[node name="Brick8" parent="Walls" unique_id=1675279900 instance=ExtResource("1_c7s6e")]
+position = Vector2(80, 120)
+
+[node name="Brick9" parent="Walls" unique_id=1357698624 instance=ExtResource("1_c7s6e")]
+position = Vector2(120, 120)
+
+[node name="Brick10" parent="Walls" unique_id=526446492 instance=ExtResource("1_c7s6e")]
+position = Vector2(160, 120)
+
+[node name="Brick11" parent="Walls" unique_id=1982673186 instance=ExtResource("1_c7s6e")]
+position = Vector2(160, 160)
+
+[node name="Brick12" parent="Walls" unique_id=546544920 instance=ExtResource("1_c7s6e")]
+position = Vector2(160, 200)
+
+[node name="Brick23" parent="Walls" unique_id=1397221909 instance=ExtResource("1_c7s6e")]
+position = Vector2(160, 240)
+
+[node name="Brick24" parent="Walls" unique_id=463626009 instance=ExtResource("1_c7s6e")]
+position = Vector2(160, 280)
+
+[node name="Brick25" parent="Walls" unique_id=72722024 instance=ExtResource("1_c7s6e")]
+position = Vector2(160, 320)
+
+[node name="Brick26" parent="Walls" unique_id=1100304466 instance=ExtResource("1_c7s6e")]
+position = Vector2(200, 320)
+
+[node name="Brick27" parent="Walls" unique_id=704367240 instance=ExtResource("1_c7s6e")]
+position = Vector2(240, 320)
+
+[node name="Brick28" parent="Walls" unique_id=1785000319 instance=ExtResource("1_c7s6e")]
+position = Vector2(280, 320)
+
+[node name="Brick29" parent="Walls" unique_id=591828030 instance=ExtResource("1_c7s6e")]
+position = Vector2(320, 320)
+
+[node name="Brick30" parent="Walls" unique_id=788034275 instance=ExtResource("1_c7s6e")]
+position = Vector2(320, 360)
+
+[node name="Brick31" parent="Walls" unique_id=29927235 instance=ExtResource("1_c7s6e")]
+position = Vector2(320, 400)
+
+[node name="Brick32" parent="Walls" unique_id=407084321 instance=ExtResource("1_c7s6e")]
+position = Vector2(320, 440)
+
+[node name="Brick3" parent="Walls" unique_id=1842447993 instance=ExtResource("1_c7s6e")]
+position = Vector2(120, 0)
+
+[node name="Brick4" parent="Walls" unique_id=1108310136 instance=ExtResource("1_c7s6e")]
+position = Vector2(120, 40)
+
+[node name="Brick13" parent="Walls" unique_id=1242224948 instance=ExtResource("1_c7s6e")]
+position = Vector2(160, 40)
+
+[node name="Brick14" parent="Walls" unique_id=1734403409 instance=ExtResource("1_c7s6e")]
+position = Vector2(200, 40)
+
+[node name="Brick15" parent="Walls" unique_id=2002302921 instance=ExtResource("1_c7s6e")]
+position = Vector2(240, 40)
+
+[node name="Brick16" parent="Walls" unique_id=1085322464 instance=ExtResource("1_c7s6e")]
+position = Vector2(240, 80)
+
+[node name="Brick17" parent="Walls" unique_id=609922687 instance=ExtResource("1_c7s6e")]
+position = Vector2(240, 120)
+
+[node name="Brick18" parent="Walls" unique_id=1537759956 instance=ExtResource("1_c7s6e")]
+position = Vector2(240, 160)
+
+[node name="Brick19" parent="Walls" unique_id=1653264248 instance=ExtResource("1_c7s6e")]
+position = Vector2(240, 200)
+
+[node name="Brick20" parent="Walls" unique_id=879260443 instance=ExtResource("1_c7s6e")]
+position = Vector2(240, 240)
+
+[node name="Brick21" parent="Walls" unique_id=186330614 instance=ExtResource("1_c7s6e")]
+position = Vector2(280, 240)
+
+[node name="Brick22" parent="Walls" unique_id=225946090 instance=ExtResource("1_c7s6e")]
+position = Vector2(320, 240)
+
+[node name="Brick33" parent="Walls" unique_id=367857756 instance=ExtResource("1_c7s6e")]
+position = Vector2(360, 240)
+
+[node name="Brick34" parent="Walls" unique_id=422010410 instance=ExtResource("1_c7s6e")]
+position = Vector2(400, 240)
+
+[node name="Brick35" parent="Walls" unique_id=968992426 instance=ExtResource("1_c7s6e")]
+position = Vector2(400, 280)
+
+[node name="Brick36" parent="Walls" unique_id=1469588613 instance=ExtResource("1_c7s6e")]
+position = Vector2(400, 320)
+
+[node name="Brick37" parent="Walls" unique_id=373393109 instance=ExtResource("1_c7s6e")]
+position = Vector2(400, 360)
+
+[node name="Brick38" parent="Walls" unique_id=1979570552 instance=ExtResource("1_c7s6e")]
+position = Vector2(400, 400)
+
+[node name="Brick39" parent="Walls" unique_id=86089022 instance=ExtResource("1_c7s6e")]
+position = Vector2(400, 440)
+
+[node name="MapBoundaries" type="StaticBody2D" parent="." unique_id=6200410]
+
+[node name="Top" type="CollisionShape2D" parent="MapBoundaries" unique_id=1877981098]
+position = Vector2(0, -1)
+shape = SubResource("WorldBoundaryShape2D_c7s6e")
+
+[node name="Left" type="CollisionShape2D" parent="MapBoundaries" unique_id=769343982]
+position = Vector2(-1, 0)
+rotation = 1.5707964
+shape = SubResource("WorldBoundaryShape2D_wijl4")
+
+[node name="Right" type="CollisionShape2D" parent="MapBoundaries" unique_id=762696086]
+position = Vector2(480, 0)
+rotation = 1.5707964
+shape = SubResource("WorldBoundaryShape2D_e0an3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MapBoundaries" unique_id=130165547]
+position = Vector2(0, 480)
+shape = SubResource("WorldBoundaryShape2D_p5pve")

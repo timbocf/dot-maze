@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://d1wa6gvx1q1ys"]
+
+[ext_resource type="PackedScene" uid="uid://8uu56pb2pbi2" path="res://player.tscn" id="1_e2o6t"]
+[ext_resource type="PackedScene" uid="uid://coqyg14xf1q1c" path="res://map.tscn" id="2_feb5d"]
+
+[node name="Game" type="Node2D" unique_id=1945956771]
+
+[node name="Player" parent="." unique_id=2103001330 instance=ExtResource("1_e2o6t")]
+z_index = 1
+position = Vector2(8, 7)
+scale = Vector2(1, 1)
+
+[node name="Map" parent="." unique_id=952679943 instance=ExtResource("2_feb5d")]
