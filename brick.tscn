@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://gvckl57ulumb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w4sox"]
+size = Vector2(40, 40)
+
+[node name="Brick" type="Node2D" unique_id=1621759516]
+
+[node name="RigidBody2D" type="StaticBody2D" parent="." unique_id=904547377]
+
+[node name="ColorRect" type="ColorRect" parent="RigidBody2D" unique_id=843911984]
+custom_minimum_size = Vector2(32, 32)
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D" unique_id=1692929742]
+position = Vector2(20, 20)
+shape = SubResource("RectangleShape2D_w4sox")
